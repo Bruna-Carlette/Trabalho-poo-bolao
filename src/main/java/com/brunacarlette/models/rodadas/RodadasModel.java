@@ -14,4 +14,11 @@ public class RodadasModel {
 
     Date dataHoraAtual = new Date();
     String hora = new SimpleDateFormat("HH:mm:ss").format(dataHoraAtual);
+    
+
+    public void criaRodada(String seila) {
+        System.out.println(seila);
+    }
+
+    
 }

@@ -17,4 +17,8 @@ public class PartidasModel {
     Date tempoDePartida = new Date();
     String hora = new SimpleDateFormat("HH:mm:ss").format(tempoDePartida);
     
+
+    public void CriaPartida() {
+        System.out.println(hora);
+    }
 }
