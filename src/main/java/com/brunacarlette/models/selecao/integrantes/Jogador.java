@@ -1,13 +1,18 @@
 package com.brunacarlette.models.selecao.integrantes;
 
-
-public class Jogador{
+public class Jogador {
     private String nome;
     private Integer idade;
+
+    public Jogador(String nome, Integer idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
 
     public String getNome() {
         return nome;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -15,8 +20,9 @@ public class Jogador{
     public Integer getIdade() {
         return idade;
     }
+
     public void setIdade(Integer idade) {
         this.idade = idade;
     }
-   
+
 }

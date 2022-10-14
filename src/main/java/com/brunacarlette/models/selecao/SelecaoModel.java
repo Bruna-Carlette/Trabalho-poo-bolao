@@ -35,6 +35,13 @@ public class SelecaoModel {
     public Tecnico tecnico;
     public Jogador jogadores;
     public Clube clube;
+    
+    public SelecaoModel(long id, Tecnico tecnico, Jogador jogadores, Clube clube) {
+        this.id = id;
+        this.tecnico = tecnico;
+        this.jogadores = jogadores;
+        this.clube = clube;
+    }
 
     
 }

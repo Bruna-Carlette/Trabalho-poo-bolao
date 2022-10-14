@@ -13,6 +13,11 @@ public class ApostadoresModel {
     private String cpf;
     private String aposta;
 
+    public ApostadoresModel(String nome, String cpf, String aposta) {
+        Nome = nome;
+        this.cpf = cpf;
+        this.aposta = aposta;
+    }
     public String getAposta() {
         return aposta;
     }
@@ -21,5 +26,14 @@ public class ApostadoresModel {
     }
     public String getNome() {
         return Nome;
+    }
+    public void setNome(String nome) {
+        Nome = nome;
+    }
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    public void setAposta(String aposta) {
+        this.aposta = aposta;
     }
 }
